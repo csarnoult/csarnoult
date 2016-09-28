@@ -1,0 +1,44 @@
+.imgBackground {
+	background: url(lake_chabot_pano.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+.name {
+	font-family: sans-serif;
+	font-size: 250%;
+	font-weight: 300;
+	line-height: 50px;
+	padding-left: 100px;
+	}
+a#nocolor:hover {color:#ffffff}
+.nav-pos {
+    position: relative;
+    float: right;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: sans-serif;
+    max-width: 20%;
+    height: auto;
+    line-height: 50px;
+    font-weight: 300;
+}
+a.nav-link:link
+{
+   color: #ffffff;
+   text-decoration: none;
+}
+a.nav-link:visited
+{
+   color: #ffffff;
+   text-decoration: none;
+}
+a.nav-link:hover
+{
+   color: #333;
+   text-decoration: none;
+}
+a.nav-link:active
+{
+   color: #f;
+   text-decoration: none;
+}
