@@ -1,22 +1,47 @@
 .imgBackground {
-	background: url(lake_chabot_pano.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+  background: url('lake_chabot_pano.jpg') no-repeat top; 
+  background-size: 175%;
 	}
-.name {
-	font-family: sans-serif;
-	font-size: 250%;
-	font-weight: 300;
+.graybar {
+    width: 300px;
+    margin: 0 auto;
+    background: #ccc;
+    height: 100px
+}  
+.padnav {
+  padding-top: 50px;
+}
+.sename {
+  font-family: -apple-system,'Roboto', sans-serif;
+  font-size: 600%;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+.description {
+  font-family: -apple-system,'Roboto', sans-serif;
+  font-size: 275%;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  margin-top: -15px;
+}
+.chrisarnoult {
+	font-family: -apple-system,'Roboto', sans-serif;
+	font-size: 275%;
+	font-weight: 100;
+  font: ultra-condensed;
 	line-height: 50px;
-	padding-left: 100px;
 	}
-a#nocolor:hover {color:#ffffff}
+#nocolor:hover {color:#ffffff;}
 .nav-pos {
     position: relative;
     float: right;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
     font-family: sans-serif;
+    font-size: 150%;
     max-width: 20%;
     height: auto;
     line-height: 50px;
