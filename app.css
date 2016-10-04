@@ -1,15 +1,52 @@
 .imgBackground {
-  background: url('lake_chabot_pano.jpg') no-repeat top; 
-  background-size: 175%;
+  background: url('sky.jpg') no-repeat top; 
+  background-size: 100%;
 	}
-.graybar {
-    width: 300px;
+.bluebar {
+    width: 100%;
     margin: 0 auto;
-    background: #ccc;
-    height: 100px
+    background: rgb(155, 147, 148);
+    background: rgb(226, 208, 196);
+    height: 300px
 }  
 .padnav {
   padding-top: 50px;
+}
+.notify {
+  padding-top: 1%;
+  text-align: center;
+
+}
+/*FONT STUFF*/
+.makebold-title {
+  font-family: -apple-system,'Roboto', sans-serif;
+  font-size: 275%;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  padding-top: 6%;
+  margin-top: -15px;
+}
+.reduced-alpha-white {
+  font-family: -apple-system,'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  opacity: 0.8;
+}
+h2 {
+  font-family: -apple-system,'Roboto', sans-serif;
+  font-size: 250%;
+  font-weight: 500;
+  color: black;
+}
+h4 {
+  font-family: -apple-system,'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  padding-top: 30px;
+  padding-bottom: 7px;
 }
 .sename {
   font-family: -apple-system,'Roboto', sans-serif;
@@ -19,13 +56,47 @@
   text-align: center;
   padding-top: 30px;
 }
-.description {
+.font-description-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 940px;
+  padding: 0 40px 50px;
+}
+.white-title {
   font-family: -apple-system,'Roboto', sans-serif;
   font-size: 275%;
   font-weight: 200;
   color: white;
   text-align: center;
   margin-top: -15px;
+}
+.black-description {
+  font-family: -apple-system,'Roboto', sans-serif;
+  font-size: 150%;
+  font-weight: 200;
+  color: black;
+  line-height: 1.5;
+}
+.skills-list {
+  font-family: -apple-system,'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+  line-height: 32px;
+  float: left;
+  padding-left: 10px;
+  margin-right: 50px;
+}
+.skills-list-2nd-ul {
+  font-family: -apple-system,'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 200;
+  color: black;
+  line-height: 32px;
+  float: left;
+  padding-left: 5px;
+  margin-right: 50px;
+  list-style-type: none;
 }
 .chrisarnoult {
 	font-family: -apple-system,'Roboto', sans-serif;
